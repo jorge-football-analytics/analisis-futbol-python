@@ -8,9 +8,14 @@ Desarrollado por **Jorge Fernández Villar** — *Estudiante de Ingeniería y Si
 
 ## 📌 Módulos Destacados & Modelos Avanzados
 
-### 1. Web App Interactiva (Dashboard con Streamlit)
+### 1. Web App Interactiva (Plataforma Profesional con Streamlit)
 - **Archivo:** `app.py`
-- **Descripción:** Cuadro de mando interactivo para la ingesta dinámica de encuentros de StatsBomb Open Data, filtrado por equipos, cálculo de KPIs de rendimiento en tiempo real e inspección visual de mapas de $xG$ y densidad espacial (KDE).
+- **Descripción:** Cuadro de mando interactivo con interfaz oscura de estética ejecutiva y motor de ingesta dinámica en cascada (**Competición $\rightarrow$ Temporada $\rightarrow$ Jornada/Fase $\rightarrow$ Partido**) sobre la base de datos de StatsBomb.
+- **Funcionalidades Clave:**
+  - **📊 Resumen & Flujo de xG:** Gráfica de flujo acumulado (*xG Timeline*) minuto a minuto con anotación automática de goles.
+  - **🛡️ Análisis Táctico de Equipos:** Comparativa de distribución de remates y mapas térmicos ocupacionales (*Kernel Density Estimation*).
+  - **👤 Scouting Individual de Jugadores:** Ficha técnica personalizada con filtro por futbolista, efectividad de pases vectoriales (completados vs. incompletos), métricas de recuperaciones, xT aportado y mapa de calor individual.
+  - **⚡ Peligro Esperado ($xT$):** Cuantificación de valor añadido por pase sobre matriz de $12 \times 8$ y ranking automático de generadores de peligro.
 
 ---
 
