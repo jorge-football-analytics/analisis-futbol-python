@@ -60,6 +60,6 @@ Desarrollado por **Jorge Fernández Villar** — *Estudiante de Ingeniería y Si
 ## 📩 Contacto
 
 **Jorge Fernández Villar**
-**correo: jorgepelayo2007@gmail.com**
+**jorgepelayo2007@gmail.com**
 *Ingeniería y Sistemas de Datos — Universidad Politécnica de Madrid (UPM)*  
 - **GitHub:** [jorge-football-analytics](https://github.com/jorge-football-analytics)
