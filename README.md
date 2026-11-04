@@ -42,6 +42,12 @@ Desarrollado por **Jorge Fernández Villar** (Estudiante de Ingeniería y Sistem
 
 ---
 
+### 6. Web App Interactiva de Analítica de Partidos (Streamlit)
+* **Archivo:** `app.py`
+* **Descripción:** Cuadro de mando interactivo para la ingesta dinámica de encuentros, filtrado por equipos, cálculo de KPIs en tiempo real e inspección visual de mapas de $xG$ y densidad espacial.
+
+---
+
 ## 🛠️ Tecnologías y Librerías Utilizadas
 
 * **Lenguaje:** Python 3.x
