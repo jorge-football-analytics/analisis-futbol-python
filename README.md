@@ -28,6 +28,13 @@ Desarrollado por **Jorge Fernández Villar** (Estudiante de Ingeniería y Sistem
 
 ---
 
+### 4. Generador Automático de Informes Post-Partido (Match Reports)
+* **Archivo:** `informe_partido.py`
+* **Descripción:** Pipeline de datos para la ingesta programática de eventos de un partido y maquetación automática de infografías ejecutivas con métricas agregadas de $xG$ y distribución espacial de remates.
+![Informe Ejecutivo Partido](informe_partido.png)
+
+---
+
 ## 🛠️ Tecnologías y Librerías Utilizadas
 
 * **Lenguaje:** Python 3.x
