@@ -35,6 +35,13 @@ Desarrollado por **Jorge Fernández Villar** (Estudiante de Ingeniería y Sistem
 
 ---
 
+### 5. Modelo de Peligro Esperado (xT - Expected Threat)
+* **Archivo:** `modelo_xt.py`
+* **Descripción:** Matriz de valoración espacial en rejilla de $12 \times 8$ para cuantificar el incremento de peligro de gol tras cada pase o conducción.
+![Modelo xT](modelo_xt.png)
+
+---
+
 ## 🛠️ Tecnologías y Librerías Utilizadas
 
 * **Lenguaje:** Python 3.x
