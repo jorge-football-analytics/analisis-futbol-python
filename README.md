@@ -1,56 +1,25 @@
 # ⚽ Sports Analytics & Football Data Science
 
-Repositorio de proyectos de analítica de datos aplicada al fútbol, desarrollo de modelos estadísticos y algoritmos de Machine Learning. 
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![StatsBomb](https://img.shields.io/badge/Data-StatsBomb_Open_Data-00E5FF?style=for-the-badge)
 
-Desarrollado por **Jorge Fernández Villar** (Estudiante de Ingeniería y Sistemas de Datos en la UPM).
+Repositorio modular de proyectos de analítica de datos aplicada al fútbol, modelado estadístico avanzado ($xG$, $xT$), Machine Learning no supervisado para scouting y desarrollo de dashboards interactivos.
 
----
-
-## 📌 Proyectos y Modelos Incluidos
-
-### 1. Modelo de Scouting Inteligente (Machine Learning No Supervisado)
-* **Archivo:** `scouting_clustering.py`
-* **Descripción:** Aplicación del algoritmo **K-Means** y reducción de dimensionalidad con **PCA** (Análisis de Componentes Principales) para agrupar futbolistas automáticamente en función de sus métricas de rendimiento por 90 minutos.
-![Clustering Scouting](clustering_scouting.png)
+Desarrollado por **Jorge Fernández Villar** — *Estudiante de Ingeniería y Sistemas de Datos en la Universidad Politécnica de Madrid (UPM)*.
 
 ---
 
-### 2. Trinidad de Visualización Espacial y Eventos
-* **Mapa de Pases (`pases_messi.py`):** Filtrado y representación de coordenadas de pases completados e incompletos.
-* **Mapa de Tiros y xG (`mapa_tiros_xg.py`):** Visualización espacial de remates escalando el tamaño de cada disparo en función de los **Goles Esperados ($xG$)**.
-* **Mapa de Calor KDE (`mapa_calor_jugador.py`):** Cálculo de densidad espacial (*Kernel Density Estimation*) para identificar las zonas de mayor ocupación de un futbolista.
+## 🚀 Inicio Rápido & Despliegue Local
 
----
+### 1. Clonar el repositorio e instalar dependencias
+```bash
+git clone [https://github.com/jorge-football-analytics/analisis-futbol-python.git](https://github.com/jorge-football-analytics/analisis-futbol-python.git)
+cd analisis-futbol-python
 
-### 3. Scouting Multidimensional y Extracción de Datos
-* **Radar de Scouting (`radar_scouting.py`):** Gráfica radial parametrizada para la evaluación visual rápida de perfiles futbolísticos.
-* **Procesamiento de LaLiga (`estadisticas_laliga.py`):** Conexión con datos abiertos de **StatsBomb**, agrupación de métricas acumuladas por jugador con **Pandas** y exportación automática a archivo CSV.
+# Activar entorno virtual (Windows PowerShell)
+.\env\Scripts\activate
 
----
-
-### 4. Generador Automático de Informes Post-Partido (Match Reports)
-* **Archivo:** `informe_partido.py`
-* **Descripción:** Pipeline de datos para la ingesta programática de eventos de un partido y maquetación automática de infografías ejecutivas con métricas agregadas de $xG$ y distribución espacial de remates.
-![Informe Ejecutivo Partido](informe_partido.png)
-
----
-
-### 5. Modelo de Peligro Esperado (xT - Expected Threat)
-* **Archivo:** `modelo_xt.py`
-* **Descripción:** Matriz de valoración espacial en rejilla de $12 \times 8$ para cuantificar el incremento de peligro de gol tras cada pase o conducción.
-![Modelo xT](modelo_xt.png)
-
----
-
-### 6. Web App Interactiva de Analítica de Partidos (Streamlit)
-* **Archivo:** `app.py`
-* **Descripción:** Cuadro de mando interactivo para la ingesta dinámica de encuentros, filtrado por equipos, cálculo de KPIs en tiempo real e inspección visual de mapas de $xG$ y densidad espacial.
-
----
-
-## 🛠️ Tecnologías y Librerías Utilizadas
-
-* **Lenguaje:** Python 3.x
-* **Ciencia de Datos & ML:** `scikit-learn`, `pandas`, `numpy`
-* **Visualización:** `mplsoccer`, `matplotlib`
-* **Proveedor de Datos:** StatsBomb Open Data
+# Instalar librerías principales
+pip install pandas numpy matplotlib mplsoccer scikit-learn streamlit
